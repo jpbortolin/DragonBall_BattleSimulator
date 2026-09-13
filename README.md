@@ -65,11 +65,19 @@ src/main/java/com/jpbortolin/dragonball/
 
 Entre na pasta do projeto e execute:
 
-```bash
-cd src\\\\main\\\\java
-javac -d ../../../out com\\\\jpbortolin\\\\dragonball\\\\Main.java com\\\\jpbortolin\\\\dragonball\\\\model\\\\\\\*.java com\\\\jpbortolin\\\\dragonball\\\\service\\\\\\\*.java com\\\\jpbortolin\\\\dragonball\\\\util\\\\\\\*.java
-java -cp ../../../out com.jpbortolin.dragonball.Main
+## ▶️ Como executar
+
+### Pelo terminal no Windows
+
+Entre na pasta do projeto e execute:
+
+```bat
+cd src\main\java
+javac -encoding UTF-8 -d ..\..\..\out com\jpbortolin\dragonball\Main.java com\jpbortolin\dragonball\model\*.java com\jpbortolin\dragonball\service\*.java com\jpbortolin\dragonball\util\*.java
+java -cp ..\..\..\out com.jpbortolin.dragonball.Main
 ```
+
+Também é possível abrir a classe `Main.java` diretamente pela sua IDE.
 
 Também é possível abrir a classe `Main.java` diretamente pela sua IDE.
 
