@@ -79,8 +79,6 @@ java -cp ..\..\..\out com.jpbortolin.dragonball.Main
 
 Também é possível abrir a classe `Main.java` diretamente pela sua IDE.
 
-Também é possível abrir a classe `Main.java` diretamente pela sua IDE.
-
 ## 🚀 Próximas evoluções
 
 Este projeto foi propositalmente criado como uma **versão inicial**.
