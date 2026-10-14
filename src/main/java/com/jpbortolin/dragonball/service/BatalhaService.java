@@ -13,7 +13,7 @@ public class BatalhaService {
         primeiro.restaurarVida();
         segundo.restaurarVida();
 
-        System.out.println("\n🔥 BATALHA INICIADA! 🔥");
+        System.out.println("\n BATALHA INICIADA! ");
         System.out.println(primeiro.getNome() + " VS " + segundo.getNome());
 
         Personagem atacante = primeiro;
@@ -43,7 +43,7 @@ public class BatalhaService {
         String resultado = vencedor.getNome() + " venceu "
                 + (vencedor == primeiro ? segundo.getNome() : primeiro.getNome());
 
-        System.out.println("\n🏆 VENCEDOR: " + vencedor.getNome() + "!");
+        System.out.println("\n VENCEDOR: " + vencedor.getNome() + "!");
         historico.add(resultado);
 
         // Reseta os personagens para que a próxima batalha comece com HP máximo.

@@ -47,7 +47,7 @@ public class Main {
 
     private static void exibirMenu() {
         System.out.println("\n================================");
-        System.out.println("      🐉 DRAGON BALL BATTLE");
+        System.out.println("      DRAGON BALL BATTLE");
         System.out.println("================================");
         System.out.println("1 - Listar personagens");
         System.out.println("2 - Iniciar batalha");
